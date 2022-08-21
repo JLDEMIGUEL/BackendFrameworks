@@ -18,6 +18,6 @@ mongoose.connect(process.env.DB_URL, { useNewUrlParser: true })
 
         //Crear servidor y escuchar peticiones http
         app.listen(port, host,()=>{
-            console.log('Servidor corriendo correctamente')
+            console.log('Servidor corriendo correctamente');
         })
     });
