@@ -28,13 +28,5 @@ app.use((req, res, next) => {
 //Añadir prefijos a rutas
 app.use('/api',article_routes);
 
-//Ruta de prueba
-// app.get('/probando',(req,res)=>{
-//     return res.status(200).send({
-//         nombre:"Jose Luis",
-//         numero:"123"
-//     });
-// });
-
 //Exportar modulo
 module.exports = app;
